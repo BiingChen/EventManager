@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5AC807DD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BC.EventManager.Domain.Tests", "BC.EventManager.Domain.Tests\BC.EventManager.Domain.Tests.csproj", "{A20272FD-0031-43F9-8254-22B6E2034AB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BC.EventManager.ApplicationLayer", "Projects\BC.EventManager.ApplicationLayer\BC.EventManager.ApplicationLayer.csproj", "{37CF0FCA-E46B-4BD9-B9D1-93F7BD249A62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{A20272FD-0031-43F9-8254-22B6E2034AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A20272FD-0031-43F9-8254-22B6E2034AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A20272FD-0031-43F9-8254-22B6E2034AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37CF0FCA-E46B-4BD9-B9D1-93F7BD249A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37CF0FCA-E46B-4BD9-B9D1-93F7BD249A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37CF0FCA-E46B-4BD9-B9D1-93F7BD249A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37CF0FCA-E46B-4BD9-B9D1-93F7BD249A62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
