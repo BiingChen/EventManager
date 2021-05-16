@@ -39,7 +39,7 @@ namespace BC.EventManager.Domain.Tests.IntegrationTests
             var savedContact = service.SaveContact(contact);
 
             // act - Get the contact back
-            var contactFromDb = service.GetContact(contact.ContactId);
+            var contactFromDb = service.GetContact(savedContact.ContactId);
 
             // assert - make sure contact is not null
             Assert.IsNotNull(contactFromDb);
